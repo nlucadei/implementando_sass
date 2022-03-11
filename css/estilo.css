@@ -1,0 +1,81 @@
+header div {
+  text-align: center; }
+
+main {
+  background-image: url(../assets/img/lightsticks.png); }
+
+h2 {
+  text-align: center; }
+  h2 span {
+    font-family: arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white; }
+
+nav {
+  background-color: #A681F5; }
+  nav ul {
+    display: flex;
+    justify-content: right; }
+    nav ul li {
+      list-style: none;
+      padding-right: 15px;
+      justify-content: right; }
+      nav ul li a {
+        font-family: arial, sans-serif;
+        color: #5a1d91;
+        text-decoration: none;
+        font-weight: bold; }
+        nav ul li a:hover {
+          font-family: Comic Sans, cursive;
+          color: white;
+          text-decoration: none;
+          font-weight: bold; }
+
+table {
+  background-color: white;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-align: center; }
+  table th {
+    background-color: #A681F5;
+    border: 2px solid #2A1559; }
+  table td {
+    border: 2px solid #2A1559;
+    padding: 20px; }
+  table img {
+    height: 200px; }
+
+footer {
+  background-image: linear-gradient(#26134F, #D6C7DD); }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-self: center;
+    font-family: arial, sans-serif;
+    color: #1E0D42;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px; }
+    footer div a {
+      font-family: arial, sans-serif;
+      color: #1E0D42;
+      text-decoration: none; }
+      footer div a:hover {
+        text-decoration: none; }
+    footer div img {
+      height: 40px; }
+
+.footer__imgHearts {
+  height: 120px; }
+
+.footer__imagenRedes {
+  transition: 2s; }
+
+.footer__imagenRedes:hover {
+  transform: translateY(-10px);
+  cursor: pointer; }

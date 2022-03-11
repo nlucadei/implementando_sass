@@ -1,0 +1,24 @@
+nav {
+	background-color: $colorFondoTexto;
+	ul {
+		display: flex;
+		justify-content: right;
+		li {
+			list-style: none;
+			padding-right: 15px;
+			justify-content: right;
+			a{
+				font-family: $fuentePrimaria;
+				color: $colorFuenteTitulos;
+				text-decoration: none;
+				font-weight: bold;
+				&:hover {
+					font-family: $fuenteNavbarHover;
+					color: $colorFuenteNavbarHover;
+					text-decoration: none;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}

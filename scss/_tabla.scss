@@ -1,0 +1,21 @@
+table {
+		background-color: $colorFondoTabla;
+		font:{
+			family: $fuentePrimaria;
+			size: 15px;
+			weight: bold;
+			align: center;
+		}	
+		th {
+			background-color: $colorFondoTexto;
+			border: 2px solid $colorBordes;
+		}
+		td {
+			border: 2px solid $colorBordes;
+			padding: 20px;
+		}
+		img {
+			height: 200px;
+		}
+}
+	

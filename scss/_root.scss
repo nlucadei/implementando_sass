@@ -1,0 +1,20 @@
+header {
+		div {
+			text-align: center;
+		}
+}
+main {
+	background-image: url(../assets/img/lightsticks.png);
+}
+h2 {
+	span {
+		font: {
+			family: $fuentePrimaria;
+			size: 30px;
+			weight: bold;
+		}
+		text-align: center;
+		background-color: $colorFondoEncabezados;
+	}
+	text-align: center;
+}
