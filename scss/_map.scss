@@ -1,0 +1,23 @@
+$redesEfecto: (
+	whatsapp: translateY(-10px),
+	instagram: translateY(10px),
+	facebook: translateX(-10px)
+);
+
+$redesCursor: (
+	whatsapp: pointer,
+	instagram: crosshair,
+	facebook: progress
+);
+
+@each $red, $efecto in $redesEfecto {
+	.footer__imagen#{$red}:hover {
+		transform: $efecto;
+	}
+}
+
+@each $red, $cursor in $redesCursor {
+	.footer__imagen#{$red}:hover {
+		cursor: $cursor;
+	}
+}

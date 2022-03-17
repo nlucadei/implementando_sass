@@ -13,6 +13,11 @@ h2 {
     text-align: center;
     background-color: white; }
 
+.rowFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 nav {
   background-color: #A681F5; }
   nav ul {
@@ -73,9 +78,48 @@ footer {
 .footer__imgHearts {
   height: 120px; }
 
-.footer__imagenRedes {
-  transition: 2s; }
+.footer__imagenwhatsapp:hover {
+  transform: translateY(-10px); }
 
-.footer__imagenRedes:hover {
-  transform: translateY(-10px);
+.footer__imageninstagram:hover {
+  transform: translateY(10px); }
+
+.footer__imagenfacebook:hover {
+  transform: translateX(-10px); }
+
+.footer__imagenwhatsapp:hover {
   cursor: pointer; }
+
+.footer__imageninstagram:hover {
+  cursor: crosshair; }
+
+.footer__imagenfacebook:hover {
+  cursor: progress; }
+
+.boton, .botonBTS, .botonGOT, .botonTWICE, .botonKARD, .botonSTK, .botonTXT {
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  border: 2px solid #2A1559;
+  color: black; }
+
+.botonBTS {
+  background-color: purple; }
+
+.botonGOT {
+  background-color: green; }
+
+.botonTWICE {
+  background-color: pink; }
+
+.botonKARD {
+  background-color: red; }
+
+.botonSTK {
+  background-color: yellow; }
+
+.botonTXT {
+  background-color: blue; }
+
+.boton, .botonBTS, .botonGOT, .botonTWICE, .botonKARD, .botonSTK, .botonTXT {
+  width: 80px;
+  height: 60px; }

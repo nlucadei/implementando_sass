@@ -18,3 +18,9 @@ h2 {
 	}
 	text-align: center;
 }
+
+.rowFlex {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
