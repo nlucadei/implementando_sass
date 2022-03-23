@@ -1,0 +1,54 @@
+.contenedor-noticia {
+	display: grid;
+	grid-template-areas:
+	"titNot1 titNot1" 
+	"imgNot1 descNot1"
+	"titNot2 titNot2" 
+	"imgNot2 descNot2"
+	"titNot3 titNot3" 
+	"imgNot3 descNot3";
+	grid-template-rows: repeat(6, auto);
+	grid-template-columns: 30% 70%;
+}
+.tituloNoticia1 {
+	grid-area: titNot1;
+}
+.imagenNoticia1 {
+	grid-area: imgNot1;
+}
+.descripcionNoticia1 {
+	grid-area: descNot1;
+}
+.tituloNoticia2 {
+	grid-area: titNot2;
+}
+.imagenNoticia2 {
+	grid-area: imgNot2;
+}
+.descripcionNoticia2 {
+	grid-area: descNot2;
+}
+.tituloNoticia3 {
+	grid-area: titNot3;
+}
+.imagenNoticia3 {
+	grid-area: imgNot3;
+}
+.descripcionNoticia3 {
+	grid-area: descNot3;
+}
+
+.titNot--texto {
+	font-family: $fuentePrimaria; 
+	font-size: 20px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.descNot--texto {
+	font-family: $fuentePrimaria; 
+	font-size: 15px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	background-color: $colorFondoEncabezados
+}

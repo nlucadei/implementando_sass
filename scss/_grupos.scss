@@ -1,0 +1,15 @@
+.grupos--titulos {
+	font-family: $fuentePrimaria; 
+	font-size: 25px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	text-align: center;
+}
+.grupos-texto {
+	font-family: $fuentePrimaria; 
+	font-size: 20px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	text-align: center;
+	background-color: $colorFondoEncabezados;
+}

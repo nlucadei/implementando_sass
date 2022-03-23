@@ -1,0 +1,22 @@
+.form--text {
+	font-family: $fuentePrimaria; 
+	font-size: 15px;
+	color: $colorFuenteTitulos;
+	font-weight: bold;
+}
+.input--text {
+	font-family: $fuentePrimaria; 
+	font-size: 15px;
+	color: $colorFuenteTitulos;
+	font-weight: bold;
+}
+.input--button {
+	background-color: $colorFondoBoton;
+	border-radius: 6px;
+	border: 2px solid $colorBordes;
+	box-shadow: 4px 4px 10px $colorBordes;
+	padding: 4px;
+}
+.form--margenes {
+	margin-bottom: 2px;
+}

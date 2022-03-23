@@ -1,13 +1,13 @@
 $redesEfecto: (
 	whatsapp: translateY(-10px),
-	instagram: translateY(10px),
-	facebook: translateX(-10px)
+	instagram: translateY(-10px),
+	facebook: translateY(-10px)
 );
 
 $redesCursor: (
 	whatsapp: pointer,
-	instagram: crosshair,
-	facebook: progress
+	instagram: pointer,
+	facebook: pointer
 );
 
 @each $red, $efecto in $redesEfecto {
