@@ -66,7 +66,7 @@ footer {
     color: #1E0D42;
     text-decoration: none;
     font-weight: bold;
-    padding: 15px; }
+    padding: 5px; }
     footer div a {
       font-family: arial, sans-serif;
       color: #1E0D42;
@@ -96,6 +96,9 @@ footer {
 
 .footer__imagenfacebook:hover {
   cursor: pointer; }
+
+header div img {
+  height: 90px; }
 
 .elementoCentrado {
   text-align: center; }
@@ -196,11 +199,17 @@ footer {
 .form--margenes {
   margin-bottom: 2px; }
 
-/* medias queries de nav de todas las páginas*/
+/* medias queries de header de todas las páginas*/
 /* vista mobile*/
 @media (min-width: 360px) and (max-width: 767px) {
+  header div img {
+    height: 30px; }
   header nav ul li a {
     font-size: 9px; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header div img {
+    height: 60px; } }
 
 /* medias queries de página INDEX*/
 /* vista mobile*/
@@ -214,8 +223,6 @@ footer {
     font-size: 10px;
     font-weight: bold;
     text-decoration: none; }
-  header div img {
-    height: 30px; }
   .table__image--height {
     height: 200px; }
   iframe {
@@ -348,7 +355,7 @@ footer {
   .footer__imageninstagram {
     height: 20px; }
   footer div a {
-    font-size: 12px; } }
+    font-size: 10px; } }
 
 /* vista tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
