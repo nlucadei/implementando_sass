@@ -42,7 +42,7 @@ nav {
 table {
   background-color: white;
   font-family: arial, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   font-align: center; }
   table th {
@@ -83,7 +83,7 @@ footer {
   transform: translateY(-10px); }
 
 .footer__imageninstagram:hover {
-  transform: translateY(-10px); }
+  transform: translateY(10px); }
 
 .footer__imagenfacebook:hover {
   transform: translateY(-10px); }
@@ -97,33 +97,20 @@ footer {
 .footer__imagenfacebook:hover {
   cursor: pointer; }
 
-.boton, .botonBTS, .botonGOT, .botonTWICE, .botonKARD, .botonSTK, .botonTXT {
+.elementoCentrado {
+  text-align: center; }
+
+.prod--texto {
   font-family: arial, sans-serif;
-  font-size: 15px;
-  border: 2px solid #2A1559;
-  color: black; }
+  font-size: 20px;
+  color: #1E0D42;
+  font-weight: bold;
+  text-align: center;
+  background-color: white; }
 
-.botonBTS {
-  background-color: purple; }
-
-.botonGOT {
-  background-color: green; }
-
-.botonTWICE {
-  background-color: pink; }
-
-.botonKARD {
-  background-color: red; }
-
-.botonSTK {
-  background-color: yellow; }
-
-.botonTXT {
-  background-color: blue; }
-
-.boton, .botonBTS, .botonGOT, .botonTWICE, .botonKARD, .botonSTK, .botonTXT {
-  width: 80px;
-  height: 60px; }
+.prod--padding {
+  padding-right: 0px;
+  padding-left: 0px; }
 
 .grupos--titulos {
   font-family: arial, sans-serif;
@@ -209,11 +196,11 @@ footer {
 .form--margenes {
   margin-bottom: 2px; }
 
-/* medias queries de nav*/
+/* medias queries de nav de todas las páginas*/
 /* vista mobile*/
 @media (min-width: 360px) and (max-width: 767px) {
   header nav ul li a {
-    font-size: 8px; } }
+    font-size: 9px; } }
 
 /* medias queries de página INDEX*/
 /* vista mobile*/
@@ -228,7 +215,7 @@ footer {
     font-weight: bold;
     text-decoration: none; }
   header div img {
-    height: 20px; }
+    height: 30px; }
   .table__image--height {
     height: 200px; }
   iframe {
@@ -258,28 +245,43 @@ footer {
     font-size: 8px;
     color: #5a1d91;
     font-weight: bold;
-    text-decoration: none; } }
+    text-decoration: none; }
+  iframe {
+    width: 360px; } }
 
-/* vista tablet*/
-@media (min-width: 768px) and (max-width: 1023px) {
-  .columnFlex {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap; }
-  header div img {
-    height: 40px; }
-  .nav__item--text {
+/* medias queries página PRODUCTOS*/
+/* vista mobile*/
+@media (min-width: 360px) and (max-width: 767px) {
+  .prod--texto {
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    color: #1E0D42;
+    font-weight: bold;
+    text-align: center;
+    background-color: white; }
+  table img {
+    height: 80px; }
+  table td {
+    padding: 2px; }
+  table tr td {
+    padding: 2px; } }
+
+/* medias queries página GRUPOS*/
+/* vista mobile*/
+@media (min-width: 360px) and (max-width: 767px) {
+  .grupos--titulos {
     font-family: arial, sans-serif;
     font-size: 15px;
-    color: white;
+    color: #1E0D42;
     font-weight: bold;
-    text-decoration: none; }
-  .nav__item--link:hover {
-    font-family: Comic Sans, cursive;
-    font-size: 15px;
-    color: #5a1d91;
+    text-align: center; }
+  .grupos-texto {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #1E0D42;
     font-weight: bold;
-    text-decoration: none; } }
+    text-align: center;
+    background-color: white; } }
 
 /* medias queries página NOTICIAS*/
 /* vista mobile*/
@@ -306,9 +308,34 @@ footer {
   .imagenNoticia3 {
     grid-area: imgNot3; }
   .descripcionNoticia3 {
-    grid-area: descNot3; } }
+    grid-area: descNot3; }
+  .titNot--texto {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #1E0D42;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .descNot--texto {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #1E0D42;
+    font-weight: bold;
+    background-color: white; } }
 
-/* fin medias queries */
+/* medias queries página CONTACTO*/
+/* vista mobile*/
+@media (min-width: 360px) and (max-width: 767px) {
+  .form--text {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #5a1d91;
+    font-weight: bold; }
+  .input--text {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #5a1d91;
+    font-weight: bold; } }
+
 /* medias queries de footer de todas las páginas*/
 /* vista mobile*/
 @media (min-width: 360px) and (max-width: 767px) {
@@ -321,11 +348,11 @@ footer {
   .footer__imageninstagram {
     height: 20px; }
   footer div a {
-    font-size: 8px; } }
+    font-size: 12px; } }
 
 /* vista tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer__imgHearts {
     height: 60px; }
   footer div a {
-    font-size: 12px; } }
+    font-size: 15px; } }

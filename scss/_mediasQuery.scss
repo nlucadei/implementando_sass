@@ -1,8 +1,8 @@
-/* medias queries de nav*/
+/* medias queries de nav de todas las páginas*/
 /* vista mobile*/
 @media (min-width:360px) and (max-width:767px){
 header nav ul li a {
-	font-size: 8px;
+	font-size: 9px;
 }
 }
 /* medias queries de página INDEX*/
@@ -20,7 +20,7 @@ header nav ul li a {
 	text-decoration: none;
 }
 header div img {
-	height: 20px;
+	height: 30px;
 }
 .table__image--height {
 	height: 200px;
@@ -58,30 +58,50 @@ iframe {
 	font-weight: bold;
 	text-decoration: none;
 }
+iframe {
+	width: 360px;
 }
-/* vista tablet*/
-@media (min-width:768px) and (max-width:1023px){
-.columnFlex {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
 }
-header div img {
-	height: 40px;
+
+/* medias queries página PRODUCTOS*/
+/* vista mobile*/
+@media (min-width:360px) and (max-width:767px){
+.prod--texto {
+	font-family: $fuentePrimaria; 
+	font-size: 10px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	text-align: center;
+	background-color: $colorFondoEncabezados;
 }
-.nav__item--text {
+table img {
+	height: 80px;
+}
+table td {
+	padding: 2px;
+}
+table tr td {
+	padding: 2px;
+}
+}
+
+/* medias queries página GRUPOS*/
+/* vista mobile*/
+@media (min-width:360px) and (max-width:767px){
+	.grupos--titulos {
 	font-family: $fuentePrimaria; 
 	font-size: 15px;
-	color: $colorFuenteNavbarHover;
+	color: $colorFuenteTexto;
 	font-weight: bold;
-	text-decoration: none;
+	text-align: center;
 }
-.nav__item--link:hover {
-	font-family: $fuenteNavbarHover;
-	font-size: 15px;
-	color: $colorFuenteTitulos;
+.grupos-texto {
+	font-family: $fuentePrimaria; 
+	font-size: 12px;
+	color: $colorFuenteTexto;
 	font-weight: bold;
-	text-decoration: none;
+	text-align: center;
+	background-color: $colorFondoEncabezados;
 }
 }
 
@@ -130,10 +150,38 @@ header div img {
 .descripcionNoticia3 {
 	grid-area: descNot3;
 }
+.titNot--texto {
+	font-family: $fuentePrimaria; 
+	font-size: 14px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	text-transform: uppercase;
 }
-/* fin medias queries */
+.descNot--texto {
+	font-family: $fuentePrimaria; 
+	font-size: 12px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	background-color: $colorFondoEncabezados
+}
+}
 
-
+/* medias queries página CONTACTO*/
+/* vista mobile*/
+@media (min-width:360px) and (max-width:767px){
+	.form--text {
+	font-family: $fuentePrimaria; 
+	font-size: 12px;
+	color: $colorFuenteTitulos;
+	font-weight: bold;
+}
+.input--text {
+	font-family: $fuentePrimaria; 
+	font-size: 12px;
+	color: $colorFuenteTitulos;
+	font-weight: bold;
+}
+}
 
 /* medias queries de footer de todas las páginas*/
 /* vista mobile*/
@@ -151,7 +199,7 @@ header div img {
 	height: 20px;
 }
 footer div a {
-	font-size: 8px;
+	font-size: 12px;
 }
 }
 /* vista tablet*/
@@ -160,6 +208,7 @@ footer div a {
 	height: 60px;
 }
 footer div a {
-	font-size: 12px;
+	font-size: 15px;
 }
 }
+

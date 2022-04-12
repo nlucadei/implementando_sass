@@ -1,0 +1,13 @@
+.prod--texto {
+	font-family: $fuentePrimaria; 
+	font-size: 20px;
+	color: $colorFuenteTexto;
+	font-weight: bold;
+	text-align: center;
+	background-color: $colorFondoEncabezados;
+}
+
+.prod--padding {
+	padding-right: 0px;
+	padding-left: 0px;
+}

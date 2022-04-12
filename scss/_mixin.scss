@@ -1,8 +1,0 @@
-@mixin tamanioBoton($width, $height) {
-	width: $width;
-	height: $height;
-}
-
-.boton {
-	@include tamanioBoton(80px,60px);
-}
